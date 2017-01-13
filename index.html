@@ -2,17 +2,33 @@
 <html>
 <head>
   <title>YKW</title>
-  <style>
+  <style type="text/css">
+  .container {display: flex;
+  justify-content: center;}
   h1 {color:magenta}
   .blue {color:blue}
+  .darkgrey {color:darkgrey}
+  .testbackground {background-color: black ;
+    margin: 50px;
+  width: 333px}
   </style>
   </head>
 <body>
   <h1>ma first try</h1>
-  <p> bla bla des isch sonen Tier :) </p>
-  <img src="https://www.randomlists.com/img/animals/aardvark.jpg">
+  <p class="darkgrey"> bla bla des isch sonen Tier :) </p>
+<div class="container">
+<img src="https://www.randomlists.com/img/animals/aardvark.jpg">
+<img src="https://www.randomlists.com/img/animals/oryx.jpg">
+</div>
   <p class="blue"> hier noch so nen tier xD</p>
-  <br>
-  <img src="https://www.randomlists.com/img/animals/oryx.jpg">
+<div class="container">
+  <div class="darkgrey testbackground">
+    bley1
+  </div><div class="darkgrey testbackground">
+    bley2
+  </div><div class="darkgrey testbackground">
+    bley3
+  </div>
+</div>
 </body>
 </html>
